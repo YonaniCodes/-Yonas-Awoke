@@ -1,0 +1,1 @@
+# **Portfolio static web page developed for minatech Assignement**

@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1100px) {
+ 
+  section{
+        width: 80%;
+       }
+}
+@media only screen and (max-width: 1000px) {
+    section{
+        width: 95%;
+       }   
+}
+@media only screen and (max-width: 885px) {  
+    .myphoto{
+        width: 200px;
+        margin-right: 0.5rem;
+        }
+        .vertical-bar{
+        height: 200px   
+       }
+       .project {
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: none;
+        }
+        .project-title{
+            text-align: center;
+        }
+        .thumbnail-container{
+            margin-top: 2rem;
+        }
+}
+@media only screen and (max-width: 669px) {  
+    .myphoto{
+        width: 180px;
+        margin-right: 0.5rem;
+    }
+    .vertical-bar{
+      width: 3px;
+      height: 180px;
+
+    }
+    .my-name{
+        margin-top: 1.6rem;
+    }
+  
+  .btn-link{
+    display: none;
+    }
+    .about-grid{
+    display: flex;
+    flex-direction: column;
+
+    }
+    #about{
+        padding-top:  200px;
+    }
+    header .myname{
+        display: none;
+    }
+    .skills-container{
+        grid-template-columns:1fr;
+    }
+    .education-place {
+       font-size: 0.7rem;
+
+    }
+   
+    
+}
+@media only screen and (max-width: 570px) { 
+    .home-container{
+        flex-direction: column;
+    }
+    .photo-container{
+        display: flex;
+      justify-content:center ;
+     }
+    .my-name{
+        font-size: 1.5rem;
+    }
+    .my-name,.career-status,.career-desc{
+        text-align: center;
+        width: 100%;
+    }
+    .myphoto{
+        width: 50%;
+     
+        margin-bottom: 0.5rem;
+    }
+    .vertical-bar{
+        display: none;
+    }
+    #about{
+        padding-top:  200px;
+    }
+    .about-grid{
+    display: flex;
+    flex-direction: column;
+    }
+    .contact-grid{
+        grid-template-columns:  none;
+     }
+     .contact-info{
+        margin-top: 2rem;
+        height: 200px;
+      }
+}
+@media only screen and (orientation: portrait) {
+    #home{
+        height: unset;
+    }
+   
+     #about,#skills,#education,#projects{
+        padding-top: 2rem;
+        margin-top: 4rem;
+     }
+     .btn-link{
+     display: block;
+     width: 200px;
+     text-align: center;
+     margin: 0 auto;
+  
+    }
+     .skills-container{
+        justify-content: center;
+    }
+    header  {
+    display: none;
+
+    }
+    .fa-bars {
+    display: block;
+    }  
+    .btn-theme{
+    top: 2rem;
+    right: 2rem;
+
+    }
+    .mobile-menue{
+        background-color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        width: 180px;
+        height: 100vh;
+        opacity: 0.7;
+        display: none;
+        color: black;
+        border-right: 1px solid gray;
+   }
+   .nav-links-container{
+       padding-top: 4rem;
+       display: flex;
+       flex-direction: column;
+       height: 200px;
+    }
+   
+   .mobile-menue .nav-link{
+       padding: 0.5rem 2rem;
+       color: inherit;
+       text-decoration: none;
+   
+   }
+   .nav-link:hover{
+       color: var(--primary-color);
+   
+   }
+   .nav-link span{
+       pointer-events: none;
+       margin-left: 0.8rem; 
+   }
+   .close-btn{
+        position: absolute;
+        right: 4px;
+        top: 10px;
+        font-size: 1rem;
+        color: inherit;
+   }
+}
+ 
+
+
